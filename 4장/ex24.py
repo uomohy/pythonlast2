@@ -25,3 +25,4 @@ while True:
         cnt += 1
         print("시도 횟수 : ", cnt)
     user_num = int(input("다시 입력해주세요 : "))
+
