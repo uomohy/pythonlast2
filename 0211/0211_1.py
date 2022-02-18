@@ -1,6 +1,7 @@
 n1 = 1
 n2 = 1
 n3 = 1
+num = 0
 
 for i in range(1, 21):
     if i < 3:
@@ -10,4 +11,6 @@ for i in range(1, 21):
         n1 = n2
         n2 = n3
     if n3 < 20:
-        print(n3)
+        num += n3
+
+print(num)
